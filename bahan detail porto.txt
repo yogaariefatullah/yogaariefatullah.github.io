@@ -1,0 +1,6 @@
+Miners :For company reporting on technical and environmental aspects, both periodically and specifically.
+Moms: This application is used for reporting and planning mine production
+Inaexport: Inaexport is the official B2B directories platform of the Directorate General of National Export Development, Ministry of Trade of the Republic of Indonesia, which was developed at the end of 2019.
+
+Slog Porli: This application is used for reporting each satker at the National Police Headquarters
+Sintel : This application is used for the mail system at TNI headquarters.
