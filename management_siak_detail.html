@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio Details</title>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        section.portfolio-details {
+            padding: 20px 0;
+            /* kurangi padding */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .portfolio-details-slider img {
+            max-height: 65vh;
+            /* batasi tinggi */
+            width: auto;
+            object-fit: contain;
+            display: block;
+            margin: auto;
+        }
+
+        .portfolio-info,
+        .portfolio-description {
+            font-size: 0.9rem;
+        }
+
+        .portfolio-info ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main id="main">
+        <section id="portfolio-details" class="portfolio-details">
+            <div class="container">
+                <div class="row gy-4 align-items-center">
+
+                    <!-- Slider -->
+                    <div class="col-lg-8">
+                        <div class="portfolio-details-slider swiper">
+                            <div class="swiper-wrapper align-items-center">
+                                <div class="swiper-slide">
+                                    <img src="assets/img/management_siak/ScreenShot Tool -20250913221230.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/img/management_siak/ScreenShot Tool -20250913221302.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="assets/img/management_siak/ScreenShot Tool -20250913221322.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <!-- Info -->
+                    <div class="col-lg-4">
+                        <div class="portfolio-info mb-3">
+                            <h3>Project Information</h3>
+                            <ul>
+                                <li><strong>Category</strong>: Web</li>
+                                <li><strong>Client</strong>: Product</li>
+                            </ul>
+                        </div>
+                        <div class="portfolio-description">
+                            <h4>Detail</h4>
+                            <p>Manage tenant using product SIAK efficiently with an integrated interface.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper('.portfolio-details-slider', {
+            speed: 400,
+            loop: true,
+            autoplay: { delay: 3000 },
+            pagination: { el: '.swiper-pagination', clickable: true },
+        });
+    </script>
+</body>
+
+</html>
