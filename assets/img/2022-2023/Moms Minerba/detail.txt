@@ -1,0 +1,1 @@
+Aplikasi MOMS (Minerba Online Monitoring System) adalah sistem daring yang dikembangkan Kementerian Energi dan Sumber Daya Mineral (ESDM), khususnya Direktorat Jenderal Mineral dan Batubara (Minerba), untuk memantau produksi dan penjualan mineral dan batubara di Indonesia secara real-time atau hampir real-time.
