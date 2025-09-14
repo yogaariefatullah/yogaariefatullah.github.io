@@ -1,0 +1,5 @@
+SmartCampus Akmil (Military Academy) is the main platform that integrates several interconnected applications. Two of its key applications include:
+
+SIAK: Manages and processes academic activities, integrated with the Presencia application to monitor student attendance.
+
+Presencia: Dedicated to monitoring and tracking student attendance.

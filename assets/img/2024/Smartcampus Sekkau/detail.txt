@@ -1,0 +1,7 @@
+SmartCampus Sekkau (Air Force School) is the main platform that integrates several interconnected applications. Three of its key applications include:
+
+SIAK: Used to manage and process academic activities.
+
+HANJAR: Provides access to learning materials available within the SIAK application.
+
+Smartwatch Monitoring: Monitors students’ activities outside the school environment.
